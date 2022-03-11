@@ -11,5 +11,5 @@ public interface Interface {
 	public abstract void mostrarClasseInd();
 	public abstract void mostrarTW();
 	public abstract void mostrarQtdPag();
-	public abstract void mostrarNota();
+	//public abstract void mostrarNota();
 }

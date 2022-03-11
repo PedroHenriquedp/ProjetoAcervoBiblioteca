@@ -22,7 +22,19 @@ public class RomanceDeEpoca extends Romance {
 
 	public void mostrarSinopse() {
 		System.out.print("Sinopse: ");
-		this.sinopse = "Sofia vive em uma metrópole e está acostumada com a modernidade e as facilidades que ela traz. Ela é independente e tem pavor à mera menção da palavra casamento. Após comprar um celular novo, algo misterioso acontece e Sofia descobre que está perdida no século dezenove, sem ter ideia de como voltar para casa – ou se isso sequer é possível. Enquanto tenta desesperadamente encontrar um meio de retornar ao tempo presente, ela é acolhida pela família Clarke. Com a ajuda do prestativo – e lindo – Ian Clarke, Sofia embarca numa busca frenética e acaba encontrando pistas que talvez possam ajudá-la a resolver esse mistério e voltar para sua tão amada vida moderna.O que ela não sabia era que seu coração tinha outros planos.";
+		this.sinopse = "Sofia vive em uma metrópole e está acostumada com a "
+				+ "\nmodernidade e as facilidades que ela traz. "
+				+ "\nEla é independente e tem pavor à mera menção da palavra casamento. "
+				+ "\nApós comprar um celular novo, algo misterioso acontece e Sofia "
+				+ "\ndescobre que está perdida no século dezenove, "
+				+ "\nsem ter ideia de como voltar para casa – ou se isso sequer é possível. "
+				+ "\nEnquanto tenta desesperadamente encontrar um meio de retornar ao "
+				+ "\ntempo presente, ela é acolhida pela família Clarke. "
+				+ "\nCom a ajuda do prestativo – e lindo – Ian Clarke, Sofia "
+				+ "\nembarca numa busca frenética e acaba encontrando pistas que talvez "
+				+ "\npossam ajudá-la a resolver esse mistério e voltar para sua tão "
+				+ "\namada vida moderna.O que ela não sabia era que seu coração tinha outros "
+				+ "planos.";
 		System.out.println(sinopse);
 	}
 
@@ -48,11 +60,5 @@ public class RomanceDeEpoca extends Romance {
 		System.out.print("Quantidade de páginas: ");
 		this.qtdPag = 364;
 		System.out.println(qtdPag);
-	}
-
-	public void mostrarNota() {
-		System.out.print("Nota: ");
-		this.nota = 4.25;
-		System.out.println(nota);
 	}
 }

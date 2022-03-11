@@ -23,12 +23,19 @@ public class Lgbtqia extends Romance {
 	
 	public void mostrarSinopse() {
 		System.out.print("Sinopse: ");
-		this.sinopse = "LendÃ¡ria estrela de Hollywood, Evelyn Hugo sempre esteve sob os holofotes â€• seja estrelando uma produÃ§Ã£o vencedora do Oscar, protagonizando algum escÃ¢ndalo ou aparecendo com um novo maridoâ€¦ pela sÃ©tima vez. Agora, prestes a completar oitenta anos e reclusa em seu apartamento no Upper East Side, a famigerada atriz decide contar a prÃ³pria histÃ³ria â€• ou sua â€œverdadeira histÃ³riaâ€� â€•, mas com uma condiÃ§Ã£o: que Monique Grant, jornalista iniciante e atÃ© entÃ£o desconhecida, seja a entrevistadora.";
+		this.sinopse = "Lendária estrela de Hollywood, "
+				+ "Evelyn Hugo sempre esteve sob os holofotes ou seja estrelando uma produção"
+				+ "\n vencedora do Oscar, protagonizando algum escândalo ou aparecendo "
+				+ "\ncom um novo maridoâ€¦ pela última vez. Agora, prestes a completar "
+				+ "\noitenta anos e reclusa em seu apartamento no Upper East Side, "
+				+ "\na famigerada atriz decide contar a própria história ou sua verdadeira "
+				+ "\nhistória, mas com uma condição que Monique Grant, jornalista iniciante"
+				+ "\n e então desconhecida, seja a entrevistadora.";
 		System.out.println(sinopse);
 	}
 	
 	public void mostrarAnoPubli() {
-		System.out.print("Ano de publicaÃ§Ã£o: ");
+		System.out.print("Ano de publicação: ");
 		this.anoPubli = 2019;
 		System.out.println(anoPubli);
 	}
@@ -46,14 +53,8 @@ public class Lgbtqia extends Romance {
 	}
 	
 	public void mostrarQtdPag() {
-		System.out.print("Quantidade de pÃ¡ginas: ");
+		System.out.print("Quantidade de páginas: ");
 		this.qtdPag = 360;
 		System.out.println(qtdPag);
-	}
-	
-	public void mostrarNota() {
-		System.out.print("Nota: ");
-		this.nota = 4.48;
-		System.out.println(nota);
 	}
 }

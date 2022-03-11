@@ -4,7 +4,7 @@ public class FormaBiblioteca implements Interface {
 	//ATRIBUTOS EM PROTECTED PARA SEREM ACESSADOS PELAS CLASSE DE GENEROS (EXEMPLO: A CLASSE ROMANCE)
 	protected String nome, categoria, gen, editora, autor, sinopse, tw, classeInd;
 	protected int anoPubli, qtdPag;
-	protected double nota;
+	protected double nota,x,y;
 	
 	
 	//POLIMORFISMO PEGANDOS OS MÉTODOS DA INTERFACE
@@ -18,6 +18,7 @@ public class FormaBiblioteca implements Interface {
 	}
 	
 	public void mostrarGenero() {
+		
 		System.out.println(gen);
 	}
 	
@@ -47,8 +48,11 @@ public class FormaBiblioteca implements Interface {
 	public void mostrarQtdPag() {
 		System.out.println(qtdPag);
 	}
-	public void mostrarNota() {
-		System.out.println(nota);
+	
+	public void mostrarNota(double x) {
+		System.out.println("Nota: "+x);
 	}
-		
+	public void mostrarNota(double x,double y) {
+		System.out.println("Nota: "+(x+y)/2);
+	}
 }
