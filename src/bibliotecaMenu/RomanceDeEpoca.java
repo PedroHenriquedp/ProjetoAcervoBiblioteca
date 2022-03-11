@@ -1,14 +1,10 @@
 package bibliotecaMenu;
-<<<<<<< HEAD
 //NESSA CLASSE FOI FEITA A ALTERAÇÃO DAS VARIVEIS, ISSO TERIA QUE SER FEITO EM CADA CATEGORIA
 
 public class RomanceDeEpoca extends Romance {
 	
 	//SOBRECARGA - DE METODOS DE FORMABIBLIOTECA
-=======
 
-public class RomanceDeEpoca extends FormaBiblioteca {
->>>>>>> 2668567b03f2493a0dc8960ec070abb4f7663c2e
 	@Override
 	public void mostrarNome() {
 		System.out.print("Nome: ");
@@ -31,7 +27,6 @@ public class RomanceDeEpoca extends FormaBiblioteca {
 	public void mostrarSinopse() {
 		System.out.print("Sinopse: ");
 		this.sinopse = "Sofia vive em uma metrópole e está acostumada com a "
-<<<<<<< HEAD
 				+ "\n\t modernidade e as facilidades que ela traz. "
 				+ "\n\t Ela é independente e tem pavor à mera menção da palavra casamento. "
 				+ "\n\t Após comprar um celular novo, algo misterioso acontece e Sofia "
@@ -44,20 +39,7 @@ public class RomanceDeEpoca extends FormaBiblioteca {
 				+ "\n\t possam ajudá-la a resolver esse mistério e voltar para sua tão "
 				+ "\n\t amada vida moderna.O que ela não sabia era que seu coração tinha outros "
 				+ "\n\t planos.";
-=======
-				+ "\nmodernidade e as facilidades que ela traz. "
-				+ "\nEla é independente e tem pavor à mera menção da palavra casamento. "
-				+ "\nApós comprar um celular novo, algo misterioso acontece e Sofia "
-				+ "\ndescobre que está perdida no século dezenove, "
-				+ "\nsem ter ideia de como voltar para casa – ou se isso sequer é possível. "
-				+ "\nEnquanto tenta desesperadamente encontrar um meio de retornar ao "
-				+ "\ntempo presente, ela é acolhida pela família Clarke. "
-				+ "\nCom a ajuda do prestativo – e lindo – Ian Clarke, Sofia "
-				+ "\nembarca numa busca frenética e acaba encontrando pistas que talvez "
-				+ "\npossam ajudá-la a resolver esse mistério e voltar para sua tão "
-				+ "\namada vida moderna.O que ela não sabia era que seu coração tinha outros "
-				+ "planos.";
->>>>>>> 2668567b03f2493a0dc8960ec070abb4f7663c2e
+
 		System.out.println(sinopse);
 	}
 

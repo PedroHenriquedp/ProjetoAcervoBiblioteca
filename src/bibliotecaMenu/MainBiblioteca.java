@@ -6,41 +6,25 @@ import java.util.ArrayList;
 public class MainBiblioteca {
 	public static void main(String[] args) {
 		FormaBiblioteca nota  = new FormaBiblioteca();
-		
-<<<<<<< HEAD
-		//CRIANDO O OBJETO ROMANCE
-		Romance romance = new Romance();
-		Terror terror = new Terror();
-		Scanner leia = new Scanner(System.in);
-		
-		//COLLECTION: ARRAY LIST
-		ArrayList<String> gensDisponiveis = new ArrayList<String>();
-		
-=======
+
 		//CRIANDO O OBJETO GENÊRO
 		Biografia biografia = new Biografia();
 		Infantil infantil = new Infantil();
 		Romance romance = new Romance();
 		Terror terror = new Terror();
 		Scanner leia = new Scanner(System.in);
-		//ARRAY LIST
+		//COLLECTION: ARRAY LIST
 		ArrayList<String> gensDisponiveis = new ArrayList<String>();
->>>>>>> 2668567b03f2493a0dc8960ec070abb4f7663c2e
 		//INSERINDO OS GÊNEROS MANUALMENTE NO ARRAY
 		gensDisponiveis.add("Terror");
 		gensDisponiveis.add("terror");
 		gensDisponiveis.add("Romance");
 		gensDisponiveis.add("romance");
-<<<<<<< HEAD
-=======
+
 		gensDisponiveis.add("Infantil");
 		gensDisponiveis.add("infantil");
 		gensDisponiveis.add("Biografia");
 		gensDisponiveis.add("biografia");
-		// System.out.println(gensDisponiveis);
-//		IGNORADO: System.out.println(gensDisponiveis);
->>>>>>> 2668567b03f2493a0dc8960ec070abb4f7663c2e
-		
 		
 		System.out.print("Digite o gênero que deseja: ");
 		String verificar = leia.next();
@@ -49,33 +33,25 @@ public class MainBiblioteca {
 
 		//CASO O GENERO ESTEJA DISPONIVEL
 		if (gensDisponiveis.contains(verificar) == true) {
-<<<<<<< HEAD
 			System.out.println("O gênero " + verificar + " está disponível.\n");
-=======
-			System.out.println("O gênero " + verificar + " está disponível.");
->>>>>>> 2668567b03f2493a0dc8960ec070abb4f7663c2e
 		}
 		
 		//CASO O GENERO NÃO ESTEJA DISPONIVEL
 		else{
-<<<<<<< HEAD
+
 			System.out.println("O gênero " + verificar + " não está disponível.\n");
-=======
-			System.out.println("O gênero " + verificar + " não está disponível.");
->>>>>>> 2668567b03f2493a0dc8960ec070abb4f7663c2e
 			//FECHANDO O PROGRAMA
 			System.exit(0);
 		}
-		
 		//VERIFICAR A POSIÇÃO DO GENERO
 		int posicao = gensDisponiveis.indexOf(verificar);
 
-<<<<<<< HEAD
-		//LOGICA: O GENERO  "ROMANCE" ESTÁ NA POSIÇÃO 1. 
-		//ASSIM, QUANDO O USUARIO DIGITAR UM TERMO QUE ESTEJA NA POSIÇÃO 1 (OU SEJA, ROMANCE), ESSA INSTRUÇÃO SERA "ATIVADA" 
-		//POR EXEMPLO, TERÁ QUE SER FEITO UMA INSTRUÇÃO PRA CASO A POSIÇÃO FOR IGUAL A 0 (OU SEJA, TERROR) E ASSIM POR DIANTE
+		/*LOGICA: O GENERO  "ROMANCE" ESTÁ NA POSIÇÃO 1. 
+		ASSIM, QUANDO O USUARIO DIGITAR UM TERMO QUE ESTEJA NA POSIÇÃO 1 (OU SEJA, ROMANCE), ESSA INSTRUÇÃO SERA "ATIVADA" 
+		POR EXEMPLO, TERÁ QUE SER FEITO UMA INSTRUÇÃO PRA CASO A POSIÇÃO FOR IGUAL A 0 (OU SEJA, TERROR) E ASSIM POR DIANTE*/
 		
-		//------------------------------------ADIÇÃO GÊNERO ROMANCE
+		
+		//---------------ADIÇÃO GÊNERO ROMANCE-----------------------
 		//EXCEPTIONS - TRATANDO O ERRO
 		try {
 			if (posicao == 2 || posicao == 3) {
@@ -114,13 +90,13 @@ public class MainBiblioteca {
 					//NOTA EM POLIMORFISMO DE SOBRECARGA
 					nota.mostrarNota(4.48, 4.88);
 				}
-			leia.close();
 			}
 		}catch(Exception erro)	{
 			System.out.println("Você cometeu um erro: "+erro);
 		}
 		
-		//------------------------------------ADIÇÃO GÊNERO TERROR
+		//--------------ADIÇÃO GÊNERO TERROR-----------------------
+		
 		//EXCEPTIONS - TRATANDO O ERRO
 		try {
 			if(posicao == 0 || posicao == 1) {
@@ -159,99 +135,12 @@ public class MainBiblioteca {
 					nota.mostrarNota(3.61, 3.48);
 				}
 			}
-			leia.close();
 		
 		}catch(Exception erro)	{
 			System.out.println("Você cometeu um erro: "+erro);
 		}
-	}
-=======
-		/*LOGICA: O GENERO  "ROMANCE" ESTÁ NA POSIÇÃO 1. 
-		ASSIM, QUANDO O USUARIO DIGITAR UM TERMO QUE ESTEJA NA POSIÇÃO 1
-		(OU SEJA, ROMANCE), ESSA INSTRUÇÃO SERA "ATIVADA" 
-		POR EXEMPLO, TERÁ QUE SER FEITO UMA INSTRUÇÃO PRA CASO A POSIÇÃO 
-		FOR IGUAL A 0 (OU SEJA, TERROR) E ASSIM POR DIANTE*/
-		try {
-		if (posicao == 2 || posicao == 3) {
-			System.out.println("Escolha uma categoria: ");
-			romance.mostrarCategoria();
-			int catR = leia.nextInt();
-			//MOSTRANDO TUDO :)
-			if (catR == 1) {
-				Lgbtqia l = new Lgbtqia();
-				System.out.println("Temos essas opções: \n");
-				l.mostrarNome();
-				l.mostrarEditora();
-				l.mostrarAutor();
-				l.mostrarSinopse();
-				l.mostrarAnoPubli();
-				l.mostrarClasseInd();
-				l.mostrarTW();
-				l.mostrarQtdPag();
-				//Sobrecarga
-				nota.mostrarNota(4.48);
-			}
-			
-			else if (catR==2) {
-				RomanceDeEpoca r = new RomanceDeEpoca();
-				System.out.println("Temos essas opções: \n");
-				r.mostrarNome();
-				r.mostrarEditora();
-				r.mostrarAutor();
-				r.mostrarSinopse();
-				r.mostrarAnoPubli();
-				r.mostrarClasseInd();
-				r.mostrarTW();
-				r.mostrarQtdPag();
-				//Sobrecarga
-				nota.mostrarNota(4.48, 4.88);
-			}
 		
-		}
-	}
-		catch(Exception erro)	{
-			System.out.println("Você cometeu um erro: "+erro);
-		}
-		
-		//----------------------TERROR-----------------------
-		try {
-			if(posicao == 0 || posicao == 1) {
-					System.out.println("Escolha uma categoria: ");
-					terror.mostrarCategoria();
-					int catT = leia.nextInt();
-					if(catT==1) {
-						System.out.println("Temos essas opções: \n");
-						SerialKiller l = new SerialKiller();
-						l.mostrarNome();
-						l.mostrarEditora();
-						l.mostrarAutor();
-						l.mostrarSinopse();
-						l.mostrarAnoPubli();
-						l.mostrarClasseInd();
-						l.mostrarTW();
-						l.mostrarQtdPag();
-						//Sobrecarga
-						nota.mostrarNota(3.61);
-					}else if (catT==2) {
-						 TerrorPsicologico r = new TerrorPsicologico();
-						 System.out.println("Temos essas opções: \n");
-							r.mostrarNome();
-							r.mostrarEditora();
-							r.mostrarAutor();
-							r.mostrarSinopse();
-							r.mostrarAnoPubli();
-							r.mostrarClasseInd();
-							r.mostrarTW();
-							r.mostrarQtdPag();
-							//Sobrecarga
-							nota.mostrarNota(3.61, 3.48);
-		}
-	}
-}
-			catch(Exception erro)	{
-				System.out.println("Você cometeu um erro: "+erro);
-			}
-		//----------------------INFATIL-----------------------
+		//----------------------ADIÇÃO GÊNERO INFATIL-----------------------
 		try {
 			if(posicao == 4 || posicao == 5) {
 					System.out.println("Escolha uma categoria: ");
@@ -268,8 +157,10 @@ public class MainBiblioteca {
 						l.mostrarClasseInd();
 						l.mostrarTW();
 						l.mostrarQtdPag();
-						//Sobrecarga
+						
+						//NOTA EM POLIMORFISMO DE SOBRECARGA
 						nota.mostrarNota(4.13,4.05);
+						
 					}else if (catT==2) {
 						 LiteraturaInfantil r = new LiteraturaInfantil();
 						 System.out.println("Temos essas opções: \n");
@@ -281,14 +172,16 @@ public class MainBiblioteca {
 							r.mostrarClasseInd();
 							r.mostrarTW();
 							r.mostrarQtdPag();
-							//Sobrecarga
+							
+							//NOTA EM POLIMORFISMO DE SOBRECARGA
 							nota.mostrarNota(4.25, 4.00);			
 		}
 	}
 }
 		catch(Exception erro)	{
 				System.out.println("Você cometeu um erro: "+erro);}
-		//----------------------BIOGRAFIA-----------------------
+		
+		//----------------------ADIÇÃO GÊNERO BIOGRAFIA-----------------------
 		try {
 			if(posicao == 6 || posicao == 7) {
 					System.out.println("Escolha uma categoria: ");
@@ -305,8 +198,10 @@ public class MainBiblioteca {
 						l.mostrarClasseInd();
 						l.mostrarTW();
 						l.mostrarQtdPag();
-						//Sobrecarga
+						
+						//NOTA EM POLIMORFISMO DE SOBRECARGA
 						nota.mostrarNota(4.17,4.15);
+						
 					}else if (catT==2) {
 						 Memoir r = new Memoir();
 						 System.out.println("Temos essas opções: \n");
@@ -318,8 +213,9 @@ public class MainBiblioteca {
 							r.mostrarClasseInd();
 							r.mostrarTW();
 							r.mostrarQtdPag();
-							//Sobrecarga
-							nota.mostrarNota(4.27, 4.10);			
+							
+							//NOTA EM POLIMORFISMO DE SOBRECARGA
+							nota.mostrarNota(4.27, 4.10);		
 						}
 					}
 				}
@@ -327,5 +223,4 @@ public class MainBiblioteca {
 				System.out.println("Você cometeu um erro: "+erro);
 				}
 	}
->>>>>>> 2668567b03f2493a0dc8960ec070abb4f7663c2e
 }

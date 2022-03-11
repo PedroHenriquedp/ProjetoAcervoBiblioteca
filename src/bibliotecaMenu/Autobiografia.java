@@ -1,6 +1,6 @@
 package bibliotecaMenu;
 
-public class Autobiografia extends FormaBiblioteca{
+public class Autobiografia extends Biografia{
 
 	@Override
 	public void mostrarNome(){
@@ -24,14 +24,14 @@ public class Autobiografia extends FormaBiblioteca{
 	public void mostrarSinopse() {
 		System.out.print("Sinopse: ");
 		this.sinopse = "\nO diário de Anne Frank, o depoimento da pequena Anne, "
-				+ "\nmorta pelos nazistas após passar anos escondida no sótão de uma casa em Amsterdã, "
-				+ "\nnarra os sentimentos, os medos e as pequenas alegrias de uma menina judia que, "
-				+ "\ncomo sua família, lutou em vão para sobreviver ao Holocausto. "
-				+ "\nUma poderosa lembrança dos horrores de uma guerra, "
-				+ "\num testemunho eloquente do espírito humano, "
-				+ "\nassim podemos descrever os relatos feitos por Anne em seu diário. "
-				+ "\nAs anotações mostram um fascinante relato sobre a coragem e a fraqueza humana e, "
-				+ "\nsobretudo, um vigoroso autorretrato de uma menina sensível e determinada";
+				+ "\n\t morta pelos nazistas após passar anos escondida no sótão de uma casa em Amsterdã, "
+				+ "\n\t narra os sentimentos, os medos e as pequenas alegrias de uma menina judia que, "
+				+ "\n\t como sua família, lutou em vão para sobreviver ao Holocausto. "
+				+ "\n\t Uma poderosa lembrança dos horrores de uma guerra, "
+				+ "\n\t um testemunho eloquente do espírito humano, "
+				+ "\n\t assim podemos descrever os relatos feitos por Anne em seu diário. "
+				+ "\n\t As anotações mostram um fascinante relato sobre a coragem e a fraqueza humana e, "
+				+ "\n\t sobretudo, um vigoroso autorretrato de uma menina sensível e determinada";
 		System.out.println(sinopse);
 	}
 	

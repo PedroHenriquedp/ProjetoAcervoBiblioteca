@@ -1,6 +1,6 @@
 package bibliotecaMenu;
 
-public class Memoir extends FormaBiblioteca{
+public class Memoir extends Biografia{
 	
 	@Override
 	public void mostrarNome(){
@@ -24,14 +24,14 @@ public class Memoir extends FormaBiblioteca{
 	public void mostrarSinopse() {
 		System.out.print("Sinopse: ");
 		this.sinopse = "\n RACISMO. ABUSO. LIBERTAÇÃO. "
-				+ "\nA vida de Marguerite Ann Johnson foi marcada por essas três palavras. "
-				+ "\nA garota negra, criada no sul por sua avó paterna, carregou consigo um enorme fardo "
-				+ "\nque foi aliviado apenas pela literatura e por tudo aquilo que ela pôde lhe trazer: "
-				+ "\nconforto através das palavras. Dessa forma, Maya escreve para exibir sua voz e "
-				+ "\nlibertar-se das grades que foram colocadas em sua vida. "
-				+ "\nAs lembranças dolorosas e suas descobertas estão contidas e eternizadas nas páginas "
-				+ "\ndesta obra densa e necessária, dando voz aos jovens que um dia foram, assim como ela, "
-				+ "\nfadados a uma vida dura e cheia de preconceitos.";
+				+ "\n\t A vida de Marguerite Ann Johnson foi marcada por essas três palavras. "
+				+ "\n\t A garota negra, criada no sul por sua avó paterna, carregou consigo um enorme fardo "
+				+ "\n\t que foi aliviado apenas pela literatura e por tudo aquilo que ela pôde lhe trazer: "
+				+ "\n\t conforto através das palavras. Dessa forma, Maya escreve para exibir sua voz e "
+				+ "\n\t libertar-se das grades que foram colocadas em sua vida. "
+				+ "\n\t As lembranças dolorosas e suas descobertas estão contidas e eternizadas nas páginas "
+				+ "\n\t desta obra densa e necessária, dando voz aos jovens que um dia foram, assim como ela, "
+				+ "\n\t fadados a uma vida dura e cheia de preconceitos.";
 		System.out.println(sinopse);
 	}
 	

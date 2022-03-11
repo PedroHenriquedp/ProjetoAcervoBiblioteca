@@ -1,6 +1,6 @@
 package bibliotecaMenu;
 
-public class LiteraturaInfantil extends FormaBiblioteca{
+public class LiteraturaInfantil extends Infantil{
 
 	
 	@Override
@@ -25,11 +25,11 @@ public class LiteraturaInfantil extends FormaBiblioteca{
 	public void mostrarSinopse() {
 		System.out.print("Sinopse: ");
 		this.sinopse = "\nO protagonista desta história é um ser circular que visivelmente não está completo: "
-				+ "\nfalta-lhe uma parte. E ele acredita que existe pelo mundo uma forma que vai "
-				+ "\ncompletá-lo perfeitamente e que, quando estiver completo, vai se sentir feliz de vez. "
-				+ "\nEntão ele parte animado em uma jornada em busca de sua parte que falta. "
-				+ "\nMas, ao explorar o mundo, talvez perceba que a verdadeira felicidade não está no outro, "
-				+ "\nmas dentro de nós mesmos.";
+				+ "\n\t falta-lhe uma parte. E ele acredita que existe pelo mundo uma forma que vai "
+				+ "\n\t completá-lo perfeitamente e que, quando estiver completo, vai se sentir feliz de vez. "
+				+ "\n\t Então ele parte animado em uma jornada em busca de sua parte que falta. "
+				+ "\n\t Mas, ao explorar o mundo, talvez perceba que a verdadeira felicidade não está no outro, "
+				+ "\n\t mas dentro de nós mesmos.";
 		System.out.println(sinopse);
 	}
 	

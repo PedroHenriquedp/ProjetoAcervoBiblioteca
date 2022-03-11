@@ -1,6 +1,6 @@
 package bibliotecaMenu;
 
-public class InfantoJuvenil extends FormaBiblioteca {
+public class InfantoJuvenil extends Infantil {
 
 	@Override
 	public void mostrarNome(){
@@ -24,13 +24,13 @@ public class InfantoJuvenil extends FormaBiblioteca {
 	public void mostrarSinopse() {
 		System.out.print("Sinopse: ");
 		this.sinopse = "\nÉ o romance de uma menina que entra em conflito consigo mesma e com a família ao"
-				+ "\n reprimir três grandes vontades "
-				+ "\n(que ela esconde numa bolsa amarela)- a vontade de crescer, a de ser garoto e a de"
-				+ "\n se tornar escritora. A partir dessa revelação- por si mesma uma "
-				+ "\ncontestação à estrutura familiar tradicional em cujo meio criança não tem "
-				+ "\nvontade- essa menina sensível e imaginativa nos conta o seu dia-a-dia, "
-				+ "\njuntando o mundo real da família ao mundo criado por sua imaginação fértil e povoado"
-				+ "\n de amigos secretos e fantasias.";
+				+ "\n\t reprimir três grandes vontades "
+				+ "\n\t (que ela esconde numa bolsa amarela)- a vontade de crescer, a de ser garoto e a de"
+				+ "\n\t se tornar escritora. A partir dessa revelação- por si mesma uma "
+				+ "\n\t contestação à estrutura familiar tradicional em cujo meio criança não tem "
+				+ "\n\t vontade- essa menina sensível e imaginativa nos conta o seu dia-a-dia, "
+				+ "\n\t juntando o mundo real da família ao mundo criado por sua imaginação fértil e povoado"
+				+ "\n\t de amigos secretos e fantasias.";
 		System.out.println(sinopse);
 	}
 	
