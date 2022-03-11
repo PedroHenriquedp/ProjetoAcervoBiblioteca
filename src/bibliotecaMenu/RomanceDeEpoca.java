@@ -1,6 +1,6 @@
 package bibliotecaMenu;
 
-public class RomanceDeEpoca extends Romance {
+public class RomanceDeEpoca extends FormaBiblioteca {
 	@Override
 	public void mostrarNome() {
 		System.out.print("Nome: ");

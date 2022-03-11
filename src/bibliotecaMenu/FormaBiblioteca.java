@@ -53,6 +53,6 @@ public class FormaBiblioteca implements Interface {
 		System.out.println("Nota: "+x);
 	}
 	public void mostrarNota(double x,double y) {
-		System.out.println("Nota: "+(x+y)/2);
+		System.out.println("Nota: "+(x+y)/2+" de 5");
 	}
 }

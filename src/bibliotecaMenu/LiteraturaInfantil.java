@@ -1,60 +1,60 @@
 package bibliotecaMenu;
 
-public class SerialKiller extends FormaBiblioteca{
+public class LiteraturaInfantil extends FormaBiblioteca{
 
+	
 	@Override
 	public void mostrarNome(){
 		System.out.print("Nome: ");
-		this.nome = "Bom dia, Verônica";
+		this.nome = "A Bolsa Amarela";
 		System.out.println(nome);
 	}
 	
 	public void mostrarEditora() {
 		System.out.print("Editora: ");
-		this.editora = " Dark Side";
+		this.editora = "Casa Lygia Bojunga";
 		System.out.println(editora);
 	}
 	
 	public void mostrarAutor() {
 		System.out.print("Autor(a): ");
-		this.autor = "Ilana Casoy, Raphael Montes ";
+		this.autor = "Lygia Bojunga";
 		System.out.println(autor);
 	}
 	
 	public void mostrarSinopse() {
 		System.out.print("Sinopse: ");
-		this.sinopse = "A rotina da secretária de polícia Verônica Torres era pacata, "
-				+ "\nburocrática e repleta de sonhos interrompidos até aquela manhã. "
-				+ "\nUm abismo se abre diante de seus pés de uma hora para outra quando, "
-				+ "\nna mesma semana, ela presencia um suicídio inesperado e recebe a ligação "
-				+ "\nanônima de uma mulher clamando por sua vida. "
-				+ "\nVerônica sente um verdadeiro calafrio, "
-				+ "\nmas abraça a oportunidade de mostrar suas habilidades investigativas e "
-				+ "\ndecide mergulhar sozinha nos dois casos";
+		this.sinopse = "\nO protagonista desta história é um ser circular que visivelmente não está completo: "
+				+ "\nfalta-lhe uma parte. E ele acredita que existe pelo mundo uma forma que vai "
+				+ "\ncompletá-lo perfeitamente e que, quando estiver completo, vai se sentir feliz de vez. "
+				+ "\nEntão ele parte animado em uma jornada em busca de sua parte que falta. "
+				+ "\nMas, ao explorar o mundo, talvez perceba que a verdadeira felicidade não está no outro, "
+				+ "\nmas dentro de nós mesmos.";
 		System.out.println(sinopse);
 	}
 	
 	public void mostrarAnoPubli() {
 		System.out.print("Ano de publicação: ");
-		this.anoPubli = 2019;
+		this.anoPubli = 1976;
 		System.out.println(anoPubli);
 	}
 	
 	public void mostrarClasseInd() {
 		System.out.print("Classe indicativa: ");
-		this.classeInd = "Adulto";
+		this.classeInd = "Livre";
 		System.out.println(classeInd);
 	}
 	
 	public void mostrarTW() {
 		System.out.print("TW: ");
-		this.tw = "Cenas violentas";
+		this.tw = "Nenhum";
 		System.out.println(tw);
 	}
 	
 	public void mostrarQtdPag() {
 		System.out.print("Quantidade de páginas: ");
-		this.qtdPag = 256;
+		this.qtdPag = 112;
 		System.out.println(qtdPag);
 	}
+	
 }

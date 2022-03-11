@@ -1,7 +1,7 @@
 package bibliotecaMenu;
 //NESSA CLASSE FOI FEITA ALTERAÃ‡ÃƒO DAS VARIVEIS, ISSO TERIA QUE SER FEITO EM CADA CATEGORIA
 //EXEMPLO: NA CATEGORIA "ROMANCE DE EPOCA" TERÃ� QUE SER FEITO A MESMA COISA
-public class Lgbtqia extends Romance {
+public class Lgbtqia extends FormaBiblioteca {
 	@Override
 	public void mostrarNome(){
 		System.out.print("Nome: ");
