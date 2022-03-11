@@ -9,7 +9,7 @@ com cadastro de gêneros, subgêneros e livros com diversos atributos retornando
 
 ## Integrantes
 <div align="center">
-<a href="https://github.com/janagt" taget="_blank"><img src="https://github.com/janagt.png" width="70" height="70"/> <a href="https://github.com/EduardaMatias" taget="_blank"><img src="https://i.postimg.cc/wMHPfBJ7/imagem-2022-03-11-133955.png" width="70" height="70"/></a>  <a href="https://github.com/GeordanFS" taget="_blank"><img src="https://github.com/GeordanFS.png" width="70" height="70"/></a>  <a href="https://github.com/nan1b" taget="_blank"><img src="https://github.com/nan1b.png" width="70" height="70"/></a>  <a href="https://github.com/rphaela" taget="_blank"><img src="https://github.com/rphaela.png" width="70" height="70"/></a>  <a href="https://github.com/PedroHenriquedp" taget="_blank"><img src="https://github.com/PedroHenriquedp.png" width="70" height="70"/></a> 
+<a href="https://github.com/janagt" taget="_blank"><img src="https://github.com/janagt.png" width="70" height="70"/> <a href="https://github.com/EduardaMatias" taget="_blank"><img src="https://www.imagemhost.com.br/images/2022/03/11/WhatsApp-Image-2022-03-11-at-1.35.26-PM.jpg" width="70" height="70"/></a>  <a href="https://github.com/GeordanFS" taget="_blank"><img src="https://github.com/GeordanFS.png" width="70" height="70"/></a>  <a href="https://github.com/nan1b" taget="_blank"><img src="https://github.com/nan1b.png" width="70" height="70"/></a>  <a href="https://github.com/rphaela" taget="_blank"><img src="https://github.com/rphaela.png" width="70" height="70"/></a>  <a href="https://github.com/PedroHenriquedp" taget="_blank"><img src="https://github.com/PedroHenriquedp.png" width="70" height="70"/></a> 
 </div>
 
 ## Estrutura do Projeto
