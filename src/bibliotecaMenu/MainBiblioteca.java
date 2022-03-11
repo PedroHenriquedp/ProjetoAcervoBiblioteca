@@ -8,6 +8,7 @@ public class MainBiblioteca {
 		FormaBiblioteca nota  = new FormaBiblioteca();
 
 		//CRIANDO O OBJETO GENÊRO
+		FiccaoCientifica ficcao = new FiccaoCientifica();
 		Biografia biografia = new Biografia();
 		Infantil infantil = new Infantil();
 		Romance romance = new Romance();
@@ -20,11 +21,12 @@ public class MainBiblioteca {
 		gensDisponiveis.add("terror");
 		gensDisponiveis.add("Romance");
 		gensDisponiveis.add("romance");
-
 		gensDisponiveis.add("Infantil");
 		gensDisponiveis.add("infantil");
 		gensDisponiveis.add("Biografia");
 		gensDisponiveis.add("biografia");
+		gensDisponiveis.add("Scifi");
+		gensDisponiveis.add("scifi");
 		
 		System.out.print("Digite o gênero que deseja: ");
 		String verificar = leia.next();
@@ -222,5 +224,47 @@ public class MainBiblioteca {
 		catch(Exception erro)	{
 				System.out.println("Você cometeu um erro: "+erro);
 				}
+		try {
+			if(posicao == 8 || posicao == 9) {
+					System.out.println("Escolha uma categoria: ");
+					ficcao.mostrarCategoria();
+					int catT = leia.nextInt();
+					if(catT==1) {
+						System.out.println("Temos essas opções: \n");
+						Distopia l = new Distopia();
+						l.mostrarNome();
+						l.mostrarEditora();
+						l.mostrarAutor();
+						l.mostrarSinopse();
+						l.mostrarAnoPubli();
+						l.mostrarClasseInd();
+						l.mostrarTW();
+						l.mostrarQtdPag();
+						
+						//NOTA EM POLIMORFISMO DE SOBRECARGA
+						nota.mostrarNota(4.12,4.33);
+						
+					}else if (catT==2) {
+						 Apocalipse r = new Apocalipse();
+						 System.out.println("Temos essas opções: \n");
+							r.mostrarNome();
+							r.mostrarEditora();
+							r.mostrarAutor();
+							r.mostrarSinopse();
+							r.mostrarAnoPubli();
+							r.mostrarClasseInd();
+							r.mostrarTW();
+							r.mostrarQtdPag();
+							
+							//NOTA EM POLIMORFISMO DE SOBRECARGA
+							nota.mostrarNota(4.16, 4.65);		
+						}
+					}
+				}
+		catch(Exception erro)	{
+				System.out.println("Você cometeu um erro: "+erro);
+				}
+		
+		
 	}
 }
