@@ -9,7 +9,7 @@ com cadastro de gêneros, subgêneros e livros com diversos atributos retornando
 
 ## Integrantes
 <div>
-  <img src="https://github.com/janagt.png" width="40" height="40"/>  <img src="https://github.com/EduardaMatias.png" width="40" height="40"/>  <img src="https://github.com/GeordanFS.png" width="40" height="40"/>  <img src="https://github.com/nan1b.png" width="40" height="40"/>  <img src="https://github.com/rphaela.png" width="40" height="40"/>  <img src="https://github.com/PedroHenriquedp.png" width="40" height="40"/>
+<a href="https://github.com/janagt"><img src="https://github.com/janagt.png" width="70" height="70"/> <img src="https://github.com/EduardaMatias.png" width="70" height="70"/></a>  <a href="https://github.com/GeordanFS"><img src="https://github.com/GeordanFS.png" width="70" height="70"/></a>  <a href="https://github.com/nan1b"><img src="https://github.com/nan1b.png" width="70" height="70"/></a>  <a href="https://github.com/rphaela"><img src="https://github.com/rphaela.png" width="70" height="70"/></a>  <a href="https://github.com/PedroHenriquedp"><img src="https://github.com/PedroHenriquedp.png" width="70" height="70"/></a> 
 </div>
 
 ## Estrutura do Projeto
