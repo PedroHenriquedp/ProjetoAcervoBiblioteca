@@ -24,23 +24,23 @@ Projeto final do bloco 1 precisava conter toda programação orientada a objeto 
 Abaixo há mais informações com exemplos de como aplicamos os conceitos dentro do tema escolhido pelo grupo.
 
 ### » Classes, Atributos e Objetos
-Classe: 
+**Classe** na principal da biblioteca (que faz ação): 
 ```bash
 public class MainBiblioteca {}
 ```
-Atributos: 
+**Atributos** na classe FormaBiblioteca (o molde): 
 ```bash
 protected String nome, categoria, gen, editora, autor, sinopse, tw, classeInd;
-	protected int anoPubli, qtdPag;
-	protected double nota,x,y;
+protected int anoPubli, qtdPag;
+protected double nota,x,y;
 ```
-Objeto: 
+**Objeto** dentro da MainBiblioteca para listagem de categorias: 
 ```bash
 Lgbtqia l = new Lgbtqia();
 ```
 
 ### » Encapsulamento e Herança
-Encapsulamento: 
+**Encapsulamento** atribuido na Interface como abstrato: 
 ```bash
 public interface Interface {
 	public abstract void mostrarGenero();
@@ -55,13 +55,13 @@ public interface Interface {
 	public abstract void mostrarQtdPag();
 }
 ```
-Herança:
+**Herança** na classe Romance que extende a FormaBiblioteca:
   ```bash
 public class Romance extends FormaBiblioteca {}
   ```
 
 ### » Polimorfismo, Sobrecarga e Sobreescrita
-Sobrecarga:
+**Sobrecarga** em FormaBiblioteca para puxar parâmetro de nota:
 ```bash
 public void mostrarNota(double x) {
   System.out.println("Nota: "+x);
@@ -71,7 +71,7 @@ public void mostrarNota(double x,double y) {
 }
 ```
   
-Sobreescrita:
+**Sobreescrita** dentro dos gêneros (Romance, Terror, etc) para sobrescrever de Interface:
 ```bash
 @Override
 public void mostrarCategoria() {
@@ -79,9 +79,9 @@ public void mostrarCategoria() {
   System.out.println(categoria);
 }
 ```
-  
 
-### » Collections
+### » Collections e Exceptions
+**Collections** dentro de MainBiblioteca para listar as categorias com Array:  
   ```bash
   //COLLECTION: ARRAY LIST
 		ArrayList<String> gensDisponiveis = new ArrayList<String>();
@@ -92,8 +92,8 @@ public void mostrarCategoria() {
 		gensDisponiveis.add("Romance");
 		gensDisponiveis.add("romance");
   ```
-
-### » Exceptions
+  
+**Exceptions** dentro de MainBiblioteca para tratar o erro dos menus:
   ```bash
   //EXCEPTIONS - TRATANDO O ERRO
 		try {
