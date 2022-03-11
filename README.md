@@ -42,4 +42,4 @@ A
 A
 
 ## Resultado final:
-  <p align="center" width="500"><img src="https://media0.giphy.com/media/bGMiUItyL6Y82tclfu/giphy.gif"/></p>
+  <p align="center" width="800" height="auto"><img src="https://media0.giphy.com/media/bGMiUItyL6Y82tclfu/giphy.gif"/></p>
