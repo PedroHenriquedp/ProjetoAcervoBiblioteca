@@ -141,4 +141,4 @@ public void mostrarCategoria() {
   ```
 
 ## Resultado final:
-  <p align="center"><img width="800" height="auto" src="https://media0.giphy.com/media/bGMiUItyL6Y82tclfu/giphy.gif"/></p>
+  <p align="center"><img width="800" height="auto" src="https://i.postimg.cc/t4WRvprW/projeto.gif"/></p>
