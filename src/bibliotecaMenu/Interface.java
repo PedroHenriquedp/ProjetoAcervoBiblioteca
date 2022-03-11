@@ -11,4 +11,8 @@ public interface Interface {
 	public abstract void mostrarClasseInd();
 	public abstract void mostrarTW();
 	public abstract void mostrarQtdPag();
+<<<<<<< HEAD
+=======
+	//public abstract void mostrarNota();
+>>>>>>> 2668567b03f2493a0dc8960ec070abb4f7663c2e
 }
